@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   @apply bg-gray-50;
 }
@@ -51,4 +52,23 @@ input {
 .fc-v-event {
   @apply bg-violet-500 border border-violet-600 ;
   
+}
+
+.fc .fc-view-harness-active > .fc-view {
+  height: 50%!important;
+}
+
+.fc .fc-timegrid-slot {
+  height: 2.5em;
+}
+
+
+@media screen and (min-width: 1280px){
+  .fc .fc-view-harness-active > .fc-view {
+    height: 50%!important;
+  }
+
+  .fc .fc-timegrid-slot {
+    height: 2.5em;
+  }
 }
